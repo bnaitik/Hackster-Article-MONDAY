@@ -1,0 +1,8 @@
+MISSING ORIGINAL SOURCE FILE: transcription_server.py
+
+The supplied Monday project references this file as the FastAPI app `transcription_server:app` on port 8001, with endpoint `/v1/transcribe`.
+The Windows Control Centre starts it from the `.stt-venv` environment.
+
+A project-directory listing supplied in the conversation showed `C:\MondayServer\transcription_server.py` (2,203 bytes), but the actual source contents were not present in the available files. This package intentionally does not invent a replacement.
+
+Before treating this repository as complete, copy your actual working file from `C:\MondayServer\transcription_server.py` into this folder. Also add its actual dependency list after checking that file. For the original deployment, place a copy of it in `C:\MondayServer` so the existing Control Centre command can import `transcription_server:app`.

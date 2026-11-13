@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monday | Desk Bot</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand"><div class="brand-mark">M</div><div><strong>MONDAY</strong><small>SMART DESK BOT</small></div></div>
+      <div class="nav-label">WORKSPACE</div>
+      <nav>
+        <button class="nav-button active" data-page="overview"><span class="nav-icon">▦</span>Overview</button>
+        <button class="nav-button" data-page="semesters"><span class="nav-icon">▤</span>Semesters & subjects</button>
+        <button class="nav-button" data-page="alarms"><span class="nav-icon">◷</span>Alarms</button>
+        <button class="nav-button" data-page="reports"><span class="nav-icon">▥</span>Reports & history</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="device-card"><span class="status-dot"></span><div><strong>Monday system</strong><small id="device-status">Not connected</small></div></div>
+        <button class="nav-button" data-page="settings"><span class="nav-icon">⚙</span>Settings</button>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <div><div class="eyebrow">SMART DESK BOT</div><h1 id="page-title">Overview</h1></div>
+        <div class="top-actions"><span class="connection-pill" id="connection-pill">● Not connected</span><button class="button button-outline" id="connect-button">Connect</button></div>
+      </header>
+      <section id="view" class="view" aria-live="polite"></section>
+      <footer class="footer">MONDAY · LOCAL CONTROL PANEL <span id="footer-time"></span></footer>
+    </main>
+  </div>
+
+  <dialog id="modal" class="modal">
+    <form method="dialog" class="modal-card" id="modal-form">
+      <div class="modal-head"><h2 id="modal-title">Details</h2><button type="button" class="icon-button" id="modal-close" aria-label="Close">✕</button></div>
+      <div id="modal-body" class="modal-body"></div>
+      <div class="modal-actions" id="modal-actions"><button type="button" class="button button-outline" id="modal-cancel">Cancel</button><button type="submit" class="button button-primary" id="modal-save">Save</button></div>
+    </form>
+  </dialog>
+  <div id="toast" class="toast" role="status"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>

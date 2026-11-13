@@ -1,0 +1,167 @@
+[
+  {
+    "path": "Arduino/smart_desk_bot_nano_no_servo.ino",
+    "bytes": 10243,
+    "sha256": "78282dded1be2ca9a57fba4ecd05714b3b9994c86caa259ec25b7495c4735be9"
+  },
+  {
+    "path": "Raspberry_Pi/config/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Raspberry_Pi/config/settings.py",
+    "bytes": 201,
+    "sha256": "dfcc03a9c1194f7c06dce168a8978073ce35da5f9945b48ce070dac4f7d12ae6"
+  },
+  {
+    "path": "Raspberry_Pi/core/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Raspberry_Pi/core/error_handler.py",
+    "bytes": 305,
+    "sha256": "9e83221c275914a58355803a3be8a3d3470bb0d04249c27b0c6b17ecf45c1d48"
+  },
+  {
+    "path": "Raspberry_Pi/core/logging_setup.py",
+    "bytes": 833,
+    "sha256": "191e0bc4eb809e231ed85aa51733b2f6a23ca56e22cfd7a7e392a23541a52c3e"
+  },
+  {
+    "path": "Raspberry_Pi/core/state_manager.py",
+    "bytes": 700,
+    "sha256": "d081e7133bd5a547317ef3b42e97867a8450a6c1a33f06805447f0581ab61c04"
+  },
+  {
+    "path": "Raspberry_Pi/display/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Raspberry_Pi/display/ili9341.py",
+    "bytes": 5200,
+    "sha256": "f71dc427b7e9dd390da8a310da848868dde6bad8a17b83644e33cd5b7774fc10"
+  },
+  {
+    "path": "Raspberry_Pi/display/run_ui.py",
+    "bytes": 1574,
+    "sha256": "96a10fd4a1aec977c8cb562e6b758bd8684d7bdbe2fdb88b33a81864a7c11c54"
+  },
+  {
+    "path": "Raspberry_Pi/display/ui.py",
+    "bytes": 28189,
+    "sha256": "d053a76e07b2d1395a02c15e5dcc0c21b17cf203caaafd30ac67b5c709d262fc"
+  },
+  {
+    "path": "Raspberry_Pi/hardware/activity_indicator.py",
+    "bytes": 1537,
+    "sha256": "057a7ec1557cd53952a868412b93792bbe2cb5a20952ee443b5f08af6b6166cd"
+  },
+  {
+    "path": "Raspberry_Pi/hardware/nano_controller.py",
+    "bytes": 12245,
+    "sha256": "6af07dfa5c4a288acac07cbfa46961577dd0b23570b1a1cb633743546678cc6e"
+  },
+  {
+    "path": "Raspberry_Pi/main.py",
+    "bytes": 2789,
+    "sha256": "27f177b6a02fd778c909f0cd13c6c6c1a0a9cf4ea8b282a16989132751bc9c34"
+  },
+  {
+    "path": "Raspberry_Pi/services/__init__.py",
+    "bytes": 34,
+    "sha256": "3687b4dde66878ed1834ea485ecc4a06d0d4b4259b74adc827e74360e397cfae"
+  },
+  {
+    "path": "Raspberry_Pi/services/companion.py",
+    "bytes": 11849,
+    "sha256": "a92312df9c5d72ee232e433da3e528c85875fe5a18da5343915193d96c23d514"
+  },
+  {
+    "path": "Raspberry_Pi/voice/__init__.py",
+    "bytes": 0,
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "Raspberry_Pi/voice/ai_assistant.py",
+    "bytes": 23990,
+    "sha256": "43491dc26ec4cb7610aeeca3bcf3c5e3e33d21de7ddecb0f49d2fe2cc8cf3ec7"
+  },
+  {
+    "path": "Raspberry_Pi/voice/assistant.py",
+    "bytes": 21512,
+    "sha256": "70b74fc0181e2fba9a6f14adeb0eec77b3b4414a2bb1188ea4adae1d4ca15121"
+  },
+  {
+    "path": "Raspberry_Pi/voice/command_parser.py",
+    "bytes": 11590,
+    "sha256": "f76dc80f8f60e47275977a861cfaa66c16876292898b579d5227c7080daf58bf"
+  },
+  {
+    "path": "Website/Start_Monday_Web_API.ps1",
+    "bytes": 407,
+    "sha256": "38819cc2715386c290b688e89e27bd3f6f6b1c664310122591ef0a0b686ef6ed"
+  },
+  {
+    "path": "Website/monday_web.py",
+    "bytes": 36021,
+    "sha256": "bb6b34335846a172f9f0ad80bc1c562c529c9740ce7b35a216e1d427d8492ca2"
+  },
+  {
+    "path": "Website/static/app.js",
+    "bytes": 34635,
+    "sha256": "1800df68df2d7f5238632d01fc54738bb0f656623eecce3bf4441fa48ec9751d"
+  },
+  {
+    "path": "Website/static/index.html",
+    "bytes": 2485,
+    "sha256": "84055e59792786490c39a44269583333c173e27d95f06955743f06b6af2f4540"
+  },
+  {
+    "path": "Website/static/style.css",
+    "bytes": 12265,
+    "sha256": "aa4a171b814a764b51c3aa724a010deadbfe00e5c2b9d1b02735d4d0f1e6ab62"
+  },
+  {
+    "path": "Windows_Server/AI_Server/academic_voice.py",
+    "bytes": 22657,
+    "sha256": "677b755040ecee5b4f404e546d55ee1d5833242f643698bea6636a93b8f22ec6"
+  },
+  {
+    "path": "Windows_Server/AI_Server/server.py",
+    "bytes": 32888,
+    "sha256": "0782e59d9547a2f70151faf9f5acc940031c4cbe92360e7ae8a3f67cb6a96d61"
+  },
+  {
+    "path": "Windows_Server/AI_Server/tools.py",
+    "bytes": 24304,
+    "sha256": "bdd090c387c1e417caf0cc3d53ba6479f23d4e4c40a643bf73fc6f0db0f063f1"
+  },
+  {
+    "path": "Windows_Server/Control_Centre/START_MONDAY_CONTROL_CENTRE.bat",
+    "bytes": 354,
+    "sha256": "446c5111ffb3d9321a6501002a3231e0c740bf94621c84abbc8f4075ff8eff5b"
+  },
+  {
+    "path": "Windows_Server/Control_Centre/control_centre.py",
+    "bytes": 10579,
+    "sha256": "eff0b7865b0de2e40abfd40a3b28828f321f2454fd66c4f573d01f00295f9fee"
+  },
+  {
+    "path": "Windows_Server/Control_Centre/static/app.js",
+    "bytes": 3105,
+    "sha256": "28fbab5c685764d4267ca2d4351629965c1ea5ae90d4777bb1bd144403a74050"
+  },
+  {
+    "path": "Windows_Server/Control_Centre/static/index.html",
+    "bytes": 1678,
+    "sha256": "025ccce939db3397849fd8485d83f01b975e8aea4c08df97968a9c2c6301abb3"
+  },
+  {
+    "path": "Windows_Server/Control_Centre/static/style.css",
+    "bytes": 3311,
+    "sha256": "dee2a223ed2f6a009d390224dbdd2cd90a847deac46e684b5dcd6e621cb26662"
+  }
+]

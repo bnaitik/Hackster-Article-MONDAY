@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monday Control Centre</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <main class="shell">
+    <header>
+      <div class="brand"><span class="mark">M</span><div><strong>MONDAY</strong><small>CONTROL CENTRE</small></div></div>
+      <div class="header-right"><span class="local-dot"></span> LOCAL MACHINE</div>
+    </header>
+    <section class="intro">
+      <p class="eyebrow">SMART DESK BOT</p>
+      <h1>Service control</h1>
+      <p>Start or stop Monday's local services. Status refreshes automatically.</p>
+    </section>
+    <section class="actions">
+      <button id="startAll" class="primary">Start all services</button>
+      <button id="stopAll" class="secondary">Stop all managed services</button>
+      <span id="globalStatus" role="status">Checking services…</span>
+    </section>
+    <section id="services" class="services" aria-live="polite">
+      <article class="service placeholder">Loading services…</article>
+    </section>
+    <section class="foot">
+      <strong>Notes</strong>
+      <ul>
+        <li>Ollama starts before the Monday AI server.</li>
+        <li>Services already running outside this controller are detected, not duplicated or forcibly stopped.</li>
+        <li>Stop All only stops processes launched by this Control Centre.</li>
+        <li>Service logs are saved in <code>C:\MondayServer\control_logs</code>.</li>
+      </ul>
+    </section>
+    <footer>MONDAY · LOCAL CONTROL PANEL · 127.0.0.1:8003</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
